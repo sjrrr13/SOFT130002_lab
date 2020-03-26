@@ -1,0 +1,86 @@
+body {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	margin: 0;
+	background-color: #f8f8f8;
+}
+header {
+	background-color: #ffffff;
+	height: 60px;
+}
+nav {
+	font-size: 15pt;
+	margin-left: 90%;
+	line-height: 60px;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #99ccff;
+}
+h1 {
+	font-size: 28pt;
+	margin-left: 13% ;
+}
+section {
+	margin: 20px 10%;
+	padding: 10px;
+	background-color: #ffffff;
+}
+div {
+	margin-left: 5%;
+	margin-bottom: 15px;
+	font-size: 13pt;
+}
+input {
+	margin-top: 10px;
+}
+[type="text"], [type="password"]  {
+	border: 1.5px solid #d6dbdf;
+	padding: 5px;
+	border-radius: 3px;
+	width: 320px;
+}
+select {
+	margin-top: 10px;
+	font-size: 12pt;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	border: solid 1.5px #d6dbdf;
+	width: 100px;
+	height: 30px;
+	padding-left: 7px;
+	border-radius: 3px;
+}
+label {
+	font-size: 12pt;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+textarea {
+	margin-left: 5%;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size: 10pt;
+	width: 485px;
+	height: 300px;
+	border-radius: 3px;
+}
+[type="button"], [type="submit"] {
+	background-color: #eaeded;
+    border: solid 1.5px #eaeded;
+    width: 70px;
+	height: 30px;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+[type="button"]:hover, [type="submit"]:hover {
+	background-color: #bdc3c7;
+}
+[name="captcha"] {
+	width: 200px;
+	margin-right: 30px;
+}
+[type="button"], [type="submit"], [type="checkbox"], [type="radio"], select:hover {
+	cursor: pointer;
+}

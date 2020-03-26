@@ -1,0 +1,131 @@
+body {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	margin: 0;
+	background-color: #f8F8F8;
+}
+header {
+	background-color: #ffffff;
+	height: 60px;
+	border-bottom: 3px solid #f6f6f6;
+	box-shadow: 5px 5px 3px #d5d8dc;
+}
+nav {
+	margin: auto 5em;
+}
+h3 {
+	float: left;
+	margin: 20px;
+	padding-left: 50px;
+}
+h3 a {
+	padding-right: 20px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: 400;
+	text-decoration: none;
+	color: #d5d8dc;
+}
+[name="home"] {
+	font-size: 15pt;
+	font-weight: bold;
+	color: #000000;
+}
+[name="register"] {
+	margin-left: 900px;
+}
+h3 a:hover {
+	text-decoration: none;
+	font-size: 15pt;
+	font-weight: bold;
+	color: #000000;
+}
+img {
+	float: left;
+	margin-top: 0.5em;
+}
+aside {
+	float: right;
+	border: 2px solid #f6f6f6;
+	box-shadow: 10px 10px 5px #d5d8dc;
+	background-color: #ffffff;
+	width: 150px;
+	height: 223.5px;
+	margin-top: 50px;
+	margin-right: 90px;
+}
+aside ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+aside li {
+	padding: 20px;
+	padding-left: 45px;
+	border-bottom: 2px solid #d5d8dc;
+}
+li[name="last"] {
+	border: ;
+}
+aside a {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 16pt;
+	text-decoration: none;
+	color: #000000;
+}
+aside a:hover {
+	text-decoration: none;
+	color: #99ccff;
+}
+section {
+	width: 850px;
+	background-color: #ffffff;
+	margin-top: 50px;
+	margin-left: 250px;
+	margin-bottom: 30px;
+	border: 2px solid #f6f6f6;
+	box-shadow: 3px 3px #d5d8dc;
+}
+section ul {
+	list-style-type: none;
+}
+section li {
+	margin-left: 13px;
+	margin-right: 13px;
+	padding-top: 20px;
+	padding-left: 25px;
+	border-bottom: 1.5px solid #d5d8dc;
+}
+section h4 {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 16pt;
+	font-weight: 430;
+	margin-bottom: 0;
+	margin-left: -17px;
+}
+p {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-left: 20px;
+	font-size: 12pt;
+}
+blockquote {
+	margin-left: 0;
+	border: 1px solid #d6eaf8;
+	border-radius: 5px;
+	background-color: #d6eaf8;
+	padding: 5px;
+	padding-left: 20px;
+	width: 60px;
+	color: rgb(7,103,200);
+	font-size: 10pt;
+}
+span {
+	color: #0000ff;
+}
+[name="page"] {
+	margin-left: 37%;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	font-size: 14pt;
+}
+
