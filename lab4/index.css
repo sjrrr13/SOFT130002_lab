@@ -1,0 +1,27 @@
+.navbar-brand {
+    padding: 6px 6px;
+}
+.carousel-inner {
+	width: 100%;
+}
+.img-responsive {
+	width: 100%;
+	height: auto;
+}
+.col-md-3 [width="40px"] {
+	padding: 0.1em;
+}
+footer {
+    background-color: #333333;
+}
+.row {
+    margin-top: 30px;
+    margin-left: 110px;
+}
+.copyright {
+    color: white;
+    text-align: center;
+}
+footer a {
+    color: white;
+}
