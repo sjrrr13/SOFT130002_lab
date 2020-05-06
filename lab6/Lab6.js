@@ -173,20 +173,18 @@ twoSum([2, 7, 11, 15], 9);
     ⑤str为字符串。
 */
 function lengthOfLongestSubstring(str) {
-	let arr = str.split("");
-	let times = new Array();
-	let counter = 1;
-	for (let i = 0; i < arr.length - 1; i++){
-		if (arr[i] != arr[i + 1]){
-			counter++;
-		} else {
-			times.push(counter);
-			counter = 1;
-		}
-	}
-	console.log(Math.max(...times));
+    let ans = 0;
+    let map = new Map();    
+    for (let j = 0, i = 0; j < str.length; j++) {
+        if (map.has(str.charAt(j))) {
+            i = Math.max(map.get(str.charAt(j)), i);   
+        }
+        ans = Math.max(ans, j - i + 1);            
+        map.set(str.charAt(j), j + 1);                
+    }
+    console.log(ans);
 }
-lengthOfLongestSubstring("abbbbb");
+lengthOfLongestSubstring("ababbb");
 
 /*
 8.
