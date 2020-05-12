@@ -10,7 +10,6 @@ let myNodelist = document.querySelectorAll("div");
 let container = myNodelist[2];
 let scriptCode = container.childNodes[0];
 
-//创建一个函数实现双击反映
 //分别创建四个item节点并添加内容
 for(let i = 0; i < 4; i++){
 	//创建一个item节点作为父节点
